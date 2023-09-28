@@ -24,3 +24,29 @@ Before you begin, ensure you have met the following requirements:
 * Explore each chart type by selecting the respective tab.
 
 * Interact with the charts by tapping, scrolling, and using gestures to examine data points closely.
+
+ ## Key features
+* Axis supports different type of axis such as Category, Numeric and Date time.
+* Allow you to customize the chart axis line such as grid lines, tick lines, and support to customize the style of the axis line by defining the AxisLineStyle.
+* Axis allow you to customize the origin of the chart axis.
+* Provides options to set padding for axis and axis visible range.
+* Multiple axes support provides a way to arrange multiple series inside the same chart area, gives more space for X and Y axis.
+
+## XAML Markup:
+
+In your XAML page, add the SfChart control with multiple ChartAxis elements for each axis you want to display. 
+
+## Data Binding:
+
+Make sure you have data objects (Data1 and Data2 in this example) in your ViewModel that match the data binding paths specified in the XAML markup.
+
+## Customization:
+
+Customize your chart as needed by setting properties such as titles, labels, legends, and colors. Syncfusion Essential Chart provides extensive customization options to tailor your chart to your requirements.
+
+## Build and Run:
+
+Build your .NET MAUI project and run it on your target platforms. You should see a multi-axis chart displaying your data.
+
+That's it! You've created a multi-axis chart in .NET MAUI using Syncfusion Essential Chart. You can explore further customization options and features available in Syncfusion's charting library to enhance your charts and meet your specific data visualization needs.
+
